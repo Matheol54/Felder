@@ -1,0 +1,108 @@
+main {
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content_All {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.box_Back {
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  background-color: rgba(123, 36, 28, 0.5);
+}
+
+.box_Back div {
+  margin: 100px 40px;
+  transition: all 500ms;
+}
+
+.box_Text, .box_Btn {
+  margin-top: 30px;
+}
+
+.box_Title {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.box_Btn {
+  padding: 10px 40px;
+  border: 2px solid #f4f4f4;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: all 300ms;
+}
+.box_Btn:hover {
+  background: #f4f4f4;
+  color: #B71C1C;
+}
+.box_Btn:active {
+  transform: scale(0.95);
+}
+
+.content_Front {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  top: -185px;
+  left: 10px;
+}
+
+.content_Front form {
+  width: 100%;
+  padding: 80px 20px;
+  background: #f4f4f4;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.form_Title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #A93226;
+}
+
+.content_Front form input {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background: #f2f2f2;
+}
+
+.btn_Form {
+  padding: 10px 40px;
+  margin-top: 40px;
+  border: none;
+  font-size: 14px;
+  background: #A93226;
+  cursor: pointer;
+  outline: none;
+}
+
+.login_Form {
+  opacity: 1;
+  display: block;
+}
+
+.signup_Form {
+  display: none;
+}

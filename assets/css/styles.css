@@ -1,0 +1,20 @@
+@import url(login.css);
+@import url(mobile.css);
+* {
+  margin: 0;
+  color: #f4f4f4;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url("../../img/portada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

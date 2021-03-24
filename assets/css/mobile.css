@@ -34,26 +34,29 @@
   main {
     width: 100%;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 80px;
   }
 
   .main_Title {
     margin-bottom: 50px;
+    color: #ff0;
   }
 
   .box_Back {
     max-width: 300px;
-    height: 600px;
+    height: 400px;
     flex-direction: column;
     margin: 0;
+    padding: 0;
   }
 
   .box_Back div {
-    margin: 0;
+    left: 10;
     position: absolute;
   }
 
   .login_Form, .signup_Form {
+    display: none;
     position: relative;
   }
 }
